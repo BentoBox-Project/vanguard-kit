@@ -12,6 +12,7 @@ pytest-cov = "*"
 zss = "*"
 beautifulsoup4 = "*"
 html5lib = "*"
+vanguardkit = {editable = true,path = "."}
 
 [requires]
 python_version = "3.7"
