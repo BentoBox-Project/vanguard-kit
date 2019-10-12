@@ -1,4 +1,4 @@
-from vanguard_kit import create_html_tree
+from vanguardkit import create_html_tree
 
 
 def test_simple_distance_through_the_sub_dunder_method():
