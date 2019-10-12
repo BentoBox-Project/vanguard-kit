@@ -1,6 +1,5 @@
 from bs4 import BeautifulSoup
-from vanguard_kit import VanguardNode
-import html5lib
+from vanguardkit import VanguardNode
 
 
 def create_html_tree(html_file, specific_tag=None, **attrs):
