@@ -1,5 +1,5 @@
-from vanguard_kit import create_html_tree
-from vanguard_kit import VanguardNode
+from vanguardkit import create_html_tree
+from vanguardkit import VanguardNode
 
 
 def test_create_html_tree():

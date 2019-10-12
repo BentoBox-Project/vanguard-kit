@@ -1,4 +1,4 @@
-from vanguard_kit import create_html_tree, calcuate_html_tree_distance
+from vanguardkit import create_html_tree, calcuate_html_tree_distance
 
 
 def test_calculate_the_realistic_difference_between_a_b():
