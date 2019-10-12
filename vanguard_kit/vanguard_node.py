@@ -1,4 +1,4 @@
-from zss import Node
+from zss import Node, simple_distance
 
 
 class VanguardNode(Node):
@@ -31,3 +31,6 @@ class VanguardNode(Node):
         """
         super().__init__(label, children=None)
         self.attrs = attrs
+
+    def __sub__(self, other):
+        return simple_distance(self, other)
