@@ -1,6 +1,9 @@
 Vanguard kit
 ==========================
 
+[![PyPI version](https://badge.fury.io/py/vanguardkit.svg)](https://badge.fury.io/py/vanguardkit)
+[![Tests](https://github.com/BentoBox-Project/vanguard-kit/workflows/CI/badge.svg)](https://github.com/BentoBox-Project/vanguard-kit/actions?workflow=CI)
+
 > A convenient way to calculate the edit distance between html files to scrape with confidence
 
 Sometimes, scraping becomes a hard task, because the web sites are in continous changing.
