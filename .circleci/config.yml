@@ -13,10 +13,10 @@ jobs:
       - checkout
       - run:
           command: |
-            sudo pip install pipenv
-            pipenv install --dev
-            pipenv run pytest tests/ -vv --cov=vanguardkit
-            pipenv run flake8 --exclude=build --exclude=venv* --statistics -v
+            sudo pip install poetry
+            poetry install
+            poetry run pytest tests/ -vv --cov=vanguardkit
+            poetry run flake8 --exclude=build --exclude=venv* --statistics -v
 
   deploy_test:
     docker:
