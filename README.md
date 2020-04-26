@@ -85,7 +85,7 @@ with open("stored_target_website.html") as stored_file:
         previous_tree = create_html_tree(stored_file)
         current_tree = create_html_tree(current_file)
         print(calcuate_html_tree_distance(previous_tree, current_tree))
-        # Rrints 1
+        # Prints 1
 ```
 
 Due to the VanguardNode class implements the __sub__ dunder method, the next way to calculate the edit distance is possible:
@@ -98,7 +98,7 @@ with open("stored_target_website.html") as stored_file:
         previous_tree = create_html_tree(stored_file)
         current_tree = create_html_tree(current_file)
         print(previous_tree - current_tree)
-        # Rrints 1
+        # Prints 1
 ```
 
 Then, the next statement returns True:
