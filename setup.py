@@ -1,7 +1,9 @@
 from os import environ as env
+import sys
+
 from setuptools import find_packages, setup
 from setuptools.command.install import install
-import sys
+
 
 VERSION = "0.1.0"
 DESC = "A convenient way to calculate the edit distance between html files"
@@ -12,6 +14,7 @@ with open("README.md", "r", encoding="utf-8") as readme:
 
 class VerifyVersionCommand(install):
     """Custom command to verify that the git tag matches our version"""
+
     description = "verify tha the git tag matches this version"
 
     def run(self):
@@ -31,21 +34,17 @@ setup(
     author_email="daniel.omar.vergara@gmail.com",
     url="https://github.com/dany2691/vanguard-kit",
     packages=find_packages(exclude=("tests",)),
-    install_requires=[
-        "zss",
-        "beautifulsoup4",
-        "html5lib"
-    ],
+    install_requires=["zss", "beautifulsoup4", "html5lib"],
     license="MIT",
     classifiers=[
         # Trove classifiers
         # Full list: https://pypi.python.org/pypi?%3Aaction=list_classifiers
-        'License :: OSI Approved :: MIT License',
-        'Programming Language :: Python :: 3.5',
-        'Programming Language :: Python :: 3.6',
-        'Programming Language :: Python :: 3.7',
-        'Programming Language :: Python :: Implementation :: CPython',
-        'Programming Language :: Python :: Implementation :: PyPy'
+        "License :: OSI Approved :: MIT License",
+        "Programming Language :: Python :: 3.5",
+        "Programming Language :: Python :: 3.6",
+        "Programming Language :: Python :: 3.7",
+        "Programming Language :: Python :: Implementation :: CPython",
+        "Programming Language :: Python :: Implementation :: PyPy",
     ],
-    cmdclass={'verify': VerifyVersionCommand}
+    cmdclass={"verify": VerifyVersionCommand},
 )

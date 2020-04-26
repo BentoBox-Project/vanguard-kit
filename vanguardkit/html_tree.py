@@ -1,4 +1,5 @@
 from bs4 import BeautifulSoup
+
 from vanguardkit import VanguardNode
 
 
@@ -18,7 +19,7 @@ def create_html_tree(html_file, specific_tag=None, **attrs):
     VanaguardNode
         The parent node with the underlying graph based on a given html file
     """
-    soup = BeautifulSoup(html_file, 'html5lib')
+    soup = BeautifulSoup(html_file, "html5lib")
     body_tag = _build_body_tag(soup, specific_tag, **attrs)
     body_node = VanguardNode(body_tag.name, attrs=body_tag.attrs)
     body_node = _build_tree(body_node, body_tag)
