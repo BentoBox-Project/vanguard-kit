@@ -1,4 +1,4 @@
-from vanguardkit import create_html_tree, calcuate_html_tree_distance
+from vanguardkit import calcuate_html_tree_distance, create_html_tree
 
 
 def test_calculate_distance_between_trees():
