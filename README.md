@@ -132,13 +132,13 @@ $ poetry run pytest test/ -vv
 
 ## Meta
 
-Daniel Omar Vergara Pérez – [@dan1_net](https://twitter.com/dan1_net) – daniel.omar.vergara@gmail.com
+Daniel Omar Vergara Pérez – [@__danvergara __](https://twitter.com/__danvergara__) – daniel.omar.vergara@gmail.com -- [github.com/danvergara](https://github.com/danvergara)
 
-[https://github.com/dany2691](https://github.com/dany2691)
+Valery Briz - [@valerybriz](https://twitter.com/valerybriz) -- [github.com/valerybriz](https://github.com/valerybriz)
 
 ## Contributing
 
-1. Fork it (<https://github.com/dany2691/vanguard-kit>)
+1. Fork it (<https://github.com/BentoBox-Project/vanguard-kit>)
 2. Create your feature branch (`git checkout -b feature/fooBar`)
 3. Commit your changes (`git commit -am 'Add some fooBar'`)
 4. Push to the branch (`git push origin feature/fooBar`)
