@@ -109,20 +109,25 @@ calcuate_html_tree_distance(previous_tree, current_tree) == previous_tree - curr
 
 # Development setup
 
-This project uses _pipenv_ for dependecy resolution. It's a kind of mix between
+This project uses __Poetry__ for dependecy resolution. It's a kind of mix between
 pip and virtualenv. Follow the next instructions to setup the development enviroment.
+
+First of all, install Poetry:
+
+```sh
+$ pip install poetry
+```
 
 ```sh
 $ git clone https://github.com/dany2691/vanguard-kit.git
 $ cd vanguard_kit
-$ pipenv shell
-$ pipenv install -e .
+$ poetry install
 ```
 
 To run the test-suite, inside the pybundler directory:
 
 ```shell
-$ pytest tests/ -vv
+$ poetry run pytest test/ -vv
 ```
 
 ## Meta
