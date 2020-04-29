@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "vanguardkit"
-version = "0.1.0"
+version = "0.2.0"
 description = "A convenient way to calculate the edit distance between html files"
 authors = ["Daniel Omar Vergara Pérez <daniel.omar.vergara@gmail.com>"]
 license  = "MIT"
